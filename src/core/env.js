@@ -116,7 +116,7 @@ const defaults = new Map(
     // primary doh upstream
     CF_DNS_RESOLVER_URL: {
       type: "string",
-      default: "https://anycast.dns.nextdns.io/dns-query",
+      default: "https://dns.google/dns-query",
     },
     // secondary doh upstream
     CF_DNS_RESOLVER_URL_2: {
