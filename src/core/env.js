@@ -116,12 +116,12 @@ const defaults = new Map(
     // primary doh upstream
     CF_DNS_RESOLVER_URL: {
       type: "string",
-      default: "https://dns.google/dns-query",
+      default: "https://melbicom-dxb-1.edge.nextdns.io",
     },
     // secondary doh upstream
     CF_DNS_RESOLVER_URL_2: {
       type: "string",
-      default: "",
+      default: "https://edgeuno-ruh-1.edge.nextdns.io",
     },
     // upstream recursive rethinkdns resolver running on Fly.io
     MAX_DNS_RESOLVER_URL: {
